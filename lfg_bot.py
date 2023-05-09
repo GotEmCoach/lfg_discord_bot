@@ -103,7 +103,7 @@ class lfg_bot(discord.Client):
             self.play_requests[unique_id] = player_request
 
     async def process_made_groups(self):
-
+        pass
 
     async def make_groups(self):
         async with self.process_lock:
